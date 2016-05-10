@@ -1,0 +1,7 @@
+apply plugin: "com.github.triplet.play"
+
+play
+{
+  jsonFile = file("gps-service.json")
+  track = 'alpha'
+}
